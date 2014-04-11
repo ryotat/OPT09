@@ -3,8 +3,8 @@
 This page is set up to make it easy for people to reproduce the results I presented in the above mentioned paper I presented in a [workshop](http://opt.kyb.tuebingen.mpg.de/) at NIPS 2009. Below you can download my implementation of L1-regularized logistic regression solvers based on FISTA (Beck & Teboulle, 09), OWLQN (Andrew & Gao, 07), SpaRSA (Wright et al., 09), as well as the proposed [DAL](https://github.com/ryotat/dal/) algorithm.
 
 ## Instructions
- 1. Download the [scripts](opt09.tar.gz).
- 1. Also download DAL ver 1.01 (or older) from [here](http://www.ibis.t.u-tokyo.ac.jp/ryotat/dal). 
+ 1. Download the package.
+ 1. Also download DAL ver 1.01 (or older) from [here](https://github.com/ryotat/dal). 
  1. Supposing that the above scripts are extracted in `somewhere/opt09` and the DAL scripts are extracted in `somewhere/dal/` (if not change the first line in `s_opt09.m`), open MATLAB and type:
 ```matlab
  s_opt09
